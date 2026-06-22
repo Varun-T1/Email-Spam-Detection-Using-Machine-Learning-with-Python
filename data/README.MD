@@ -249,7 +249,33 @@ Ham
 ## Results
 
 The system successfully classifies emails with high accuracy and helps users reduce spam and phishing threats.
+## Model Used
 
+- TF-IDF Vectorization
+- Multinomial Naive Bayes Classifier
+
+## Accuracy
+
+The model was trained on spam and ham email datasets and achieved approximately 90%+ accuracy on the test dataset.
+
+## How to Run
+
+1. Clone Repository
+2. Install Dependencies
+
+pip install -r requirements.txt
+
+3. Train Model
+
+python train_model.py
+
+4. Start Flask Application
+
+python app.py
+
+5. Open Browser
+
+http://127.0.0.1:5000
 ---
 
 ## Contributors
